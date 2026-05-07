@@ -1,0 +1,77 @@
+{
+  "description": "Czech exports by partner country — 10-country testset",
+  "source_file": "VZOOM.json",
+  "extraction_params": {
+    "indicator": "8491",
+    "indicator_label": "Export (mil. CZK, FOB)",
+    "sitc": "C",
+    "sitc_label": "All commodity groups (total)",
+    "czcpa": "0",
+    "adjustment": "0",
+    "adjustment_label": "Unadjusted"
+  },
+  "time_range": {
+    "start": "2010-01",
+    "end": "2024-12",
+    "n_months": 180,
+    "frequency": "monthly"
+  },
+  "countries": [
+    {
+      "code": "DE",
+      "name": "Germany",
+      "nan_count": 0
+    },
+    {
+      "code": "SK",
+      "name": "Slovakia",
+      "nan_count": 0
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "nan_count": 0
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "nan_count": 0
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "nan_count": 0
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "nan_count": 0
+    },
+    {
+      "code": "HU",
+      "name": "Hungary",
+      "nan_count": 0
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "nan_count": 0
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "nan_count": 0
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "nan_count": 0
+    }
+  ],
+  "n_countries": 10,
+  "files": {
+    "exports.csv": "Wide-format CSV: rows=YYYY-MM, columns=ISO-2 country codes",
+    "metadata.json": "This file"
+  },
+  "created": "2026-03-18"
+}

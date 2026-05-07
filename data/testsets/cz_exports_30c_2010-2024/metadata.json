@@ -1,0 +1,177 @@
+{
+  "description": "Czech exports by partner country — 30-country testset",
+  "source_file": "VZOOM.json",
+  "extraction_params": {
+    "indicator": "8491",
+    "indicator_label": "Export (mil. CZK, FOB)",
+    "sitc": "C",
+    "sitc_label": "All commodity groups (total)",
+    "czcpa": "0",
+    "adjustment": "0",
+    "adjustment_label": "Unadjusted"
+  },
+  "time_range": {
+    "start": "2010-01",
+    "end": "2024-12",
+    "n_months": 180,
+    "frequency": "monthly"
+  },
+  "countries": [
+    {
+      "code": "DE",
+      "name": "Germany",
+      "nan_count": 0
+    },
+    {
+      "code": "SK",
+      "name": "Slovakia",
+      "nan_count": 0
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "nan_count": 0
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "nan_count": 0
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "nan_count": 0
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "nan_count": 0
+    },
+    {
+      "code": "HU",
+      "name": "Hungary",
+      "nan_count": 0
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "nan_count": 0
+    },
+    {
+      "code": "GB",
+      "name": "United Kingdom",
+      "nan_count": 0
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "nan_count": 0
+    },
+    {
+      "code": "BE",
+      "name": "Belgium",
+      "nan_count": 0
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "nan_count": 0
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "nan_count": 0
+    },
+    {
+      "code": "CH",
+      "name": "Switzerland",
+      "nan_count": 0
+    },
+    {
+      "code": "SI",
+      "name": "Slovenia",
+      "nan_count": 0
+    },
+    {
+      "code": "TR",
+      "name": "Turkey",
+      "nan_count": 0
+    },
+    {
+      "code": "US",
+      "name": "United States",
+      "nan_count": 0
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "nan_count": 0
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "nan_count": 0
+    },
+    {
+      "code": "UA",
+      "name": "Ukraine",
+      "nan_count": 0
+    },
+    {
+      "code": "BG",
+      "name": "Bulgaria",
+      "nan_count": 0
+    },
+    {
+      "code": "HR",
+      "name": "Croatia",
+      "nan_count": 0
+    },
+    {
+      "code": "GR",
+      "name": "Greece",
+      "nan_count": 0
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "nan_count": 0
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "nan_count": 0
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "nan_count": 0
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "nan_count": 0
+    },
+    {
+      "code": "LT",
+      "name": "Lithuania",
+      "nan_count": 0
+    },
+    {
+      "code": "LV",
+      "name": "Latvia",
+      "nan_count": 0
+    },
+    {
+      "code": "IE",
+      "name": "Ireland",
+      "nan_count": 0
+    }
+  ],
+  "n_countries": 30,
+  "files": {
+    "exports.csv": "Wide-format CSV: rows=YYYY-MM, columns=ISO-2 country codes",
+    "metadata.json": "This file"
+  },
+  "created": "2026-03-21"
+}
