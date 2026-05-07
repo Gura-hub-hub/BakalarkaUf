@@ -5,4 +5,4 @@ statsmodels
 pmdarima
 matplotlib
 ipywidgets
-torch
+ipython
